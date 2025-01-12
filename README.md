@@ -75,9 +75,9 @@ Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou so
 
 ## Fichiers supplémentaires
 
-1. *AirSense.ino* : Le fichier contenant le code Arduino du projet.
-2. *LICENSE* : Un fichier de licence (MIT License) pour autoriser les utilisateurs à modifier et redistribuer le code.
-3. *images/* : Un dossier contenant des images du montage matériel et du projet final pour illustration dans le README.
+1. **AirSense.ino** : Le fichier contenant le code Arduino du projet.
+2. **LICENSE** : Un fichier de licence (MIT License) pour autoriser les utilisateurs à modifier et redistribuer le code.
+3. **images/** : Un dossier contenant des images du montage matériel et du projet final pour illustration dans le README.
 
 
 ## Organisation des fichiers

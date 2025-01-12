@@ -25,7 +25,6 @@ void setup() {
 
 void loop() {
   char tempStr[6];
-  char humdStr[6];
   float temperature = dht.readTemperature();   // Lecture de la température
   float humidite = dht.readHumidity();         // Lecture de l'humidité
 
@@ -38,13 +37,12 @@ void loop() {
   }
   
   sprintf(tempStr, "%6.2f", temperature);  // Formatage 
-  sprintf(humdStr, "%6.2f", humidite); 
 
   // Affichage sur le moniteur série
   Serial.print("Température: ");
   Serial.print(tempStr);
   Serial.print(" °C\tHumidité: ");
-  Serial.print(humdStr);
+  Serial.print(humidite);
   Serial.println(" %");
 
   // Affichage sur l'écran LCD
@@ -55,7 +53,7 @@ void loop() {
   
   lcd.setCursor(0, 1);
   lcd.print("Humide: ");
-  lcd.print(humdStr);
+  lcd.print(humidite);
   lcd.print(" %");
 
   delay(2000);                 // Fréquence de 0.5Hz

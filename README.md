@@ -1,6 +1,9 @@
 # AirSense
 
-AirSense est un projet basé sur un microcontrôleur ESP32, un capteur DHT22, et un écran LCD I2C pour surveiller en temps réel la température et l'humidité de l'air. Ce projet est idéal pour les débutants en électronique et IoT, et il peut être facilement étendu pour des applications domestiques ou industrielles.
+AirSense est un projet basé sur un microcontrôleur ESP32, un capteur DHT22, et un écran LCD I2C pour surveiller en temps réel la température et l'humidité de l'air. Ce projet est idéal pour les débutants en électronique et IoT, et il peut être facilement 
+étendu pour des applications domestiques ou industrielles.
+
+Tester le projet ici : https://wokwi.com/projects/419885822855762945
 
 ## Composants nécessaires
 - ESP32
@@ -73,9 +76,9 @@ Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou so
 
 ### Fichiers supplémentaires
 
-1. **AirSense.ino** : Le fichier contenant le code Arduino du projet.
-2. **LICENSE** : Un fichier de licence (MIT License) pour autoriser les utilisateurs à modifier et redistribuer le code.
-3. **images/** : Un dossier contenant des images du montage matériel et du projet final pour illustration dans le README.
+1. *AirSense.ino* : Le fichier contenant le code Arduino du projet.
+2. *LICENSE* : Un fichier de licence (MIT License) pour autoriser les utilisateurs à modifier et redistribuer le code.
+3. *images/* : Un dossier contenant des images du montage matériel et du projet final pour illustration dans le README.
 
 
 ### Organisation des fichiers

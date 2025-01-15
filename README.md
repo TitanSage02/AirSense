@@ -20,7 +20,7 @@ Tester le projet ici : https://wokwi.com/projects/419885822855762945
    - Data -> GPIO4 sur l'ESP32
 
 2. **Écran LCD I2C** :
-   - VCC -> 5V sur l'ESP32
+   - VCC -> 3.3V sur l'ESP32
    - GND -> GND sur l'ESP32
    - SDA -> GPIO21 sur l'ESP32
    - SCL -> GPIO22 sur l'ESP32
